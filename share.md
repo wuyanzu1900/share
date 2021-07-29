@@ -146,6 +146,7 @@
 
   **2. 生命周期函数**
   
+  
 - React
     <br>
     react整体上是函数式的思想，组件使用jsx语法，将html与css全都融入javaScript，jsx语法相对来说更加灵活，写react应用的时候会让人感觉就像是在写javaScript。当组件调用setState或props变化的时候，组件内部render会重新渲染，子组件也会随之重新渲染，可以通过shouldComponentUpdate或者PureComponent可以避免不必要的重新渲染，这一点Vue做的要好很多。
